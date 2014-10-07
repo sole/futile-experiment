@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this file,
+   - You can obtain one at http://mozilla.org/MPL/2.0/.  -->
+
+<html xmlns="http://www.w3.org/1999/xhtml "
+      id="shell"
+      windowtype="navigator:browser"
+      sizemode="fullscreen"
+      >
+
+<head>
+  <link rel="stylesheet" href="shell.css" type="text/css">
+
+  <script type="application/javascript;version=1.8"
+          src="chrome://b2g/content/settings.js"> </script>
+  <script type="application/javascript;version=1.8"
+          src="chrome://b2g/content/shell.js"> </script>
+
+  <!-- this file is only loaded on Gonk to manage ADB state -->
+  <script type="application/javascript;version=1.8"
+          src="chrome://b2g/content/devtools/adb.js"> </script>
+  <!-- manages DevTools server state -->
+  <script type="application/javascript;version=1.8"
+          src="chrome://b2g/content/devtools/debugger.js"> </script>
+</head>
+  <body id="container">
+    <!-- The html:iframe containing the UI is created here. -->
+  </body>
+</html>
