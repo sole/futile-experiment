@@ -1,6 +1,6 @@
 # a futile experiment
 
-this is me doing terrible things. don't attempt this under strict supervision.
+this is me doing terrible things. don't attempt this unless under strict supervision.
 
 ## First naive attempt
 
@@ -16,8 +16,8 @@ Failing, but I can't quite remember what it was exactly.
 
 Evidently fails with a CSP error
 
-`bash
+````bash
 [JavaScript Error: "Content Security Policy: The page's settings blocked the loading of a resource at http://10.246.25.84:4000/socket.io/socket.io.js ("script-src app://system.gaiamobile.org")."]
 `
 
-
+````
